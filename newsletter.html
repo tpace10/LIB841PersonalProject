@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Newsletter - 4th Grade ELA</title>
+    <link rel="stylesheet" type="text/css" href="project.css">
+    <style>
+        /* CSS for Navigation Menu */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        nav {
+            background-color: #4CAF50;
+            overflow: hidden;
+            width: 100%;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-around;
+        }
+        nav ul li {
+            flex: 1;
+        }
+        nav ul li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            width: 100%;
+        }
+        nav ul li a:hover {
+            background-color: #45a049;
+        }
+
+        /* General Page Content */
+        .content {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        /* CSS for Images */
+        .newsletter-images {
+            margin-top: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .newsletter-images img {
+            max-width: 100%;
+            height: auto;
+            margin: 20px;
+            width: 300px; /* Ensuring images have the same width */
+        }
+        .float-left {
+            float: left;
+            margin-right: 20px;
+        }
+        .clear {
+            clear: both;
+        }
+
+        /* Additional Styles */
+        .current-newsletter {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .archived-newsletters ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .archived-newsletters li {
+            margin: 10px 0;
+        }
+        .archived-newsletters a {
+            text-decoration: none;
+            color: #4CAF50;
+        }
+        .archived-newsletters a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Menu -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="newsletter.html">Newsletter</a></li>
+            <li><a href="4th_grade_ela.html">4th Grade ELA</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Newsletter Page Content -->
+    <div class="content">
+        <h1>Newsletter</h1>
+
+        <div class="current-newsletter">
+            <h2>Current Newsletter</h2>
+            <p>Welcome to our latest newsletter! Here you will find all the recent updates, events, and news from our 4th Grade ELA class.</p>
+            <img src="Newsletter.jpg" alt="Current Newsletter">
+            <p><a href="current_newsletter.pdf" target="_blank">Download the latest newsletter</a></p>
+        </div>
+
+        <div class="clear"></div> <!-- Clear float to ensure proper layout -->
+
+        <div class="archived-newsletters">
+            <h2>Archived Newsletters</h2>
+            <ul>
+                <li><a href="newsletter_january.pdf" target="_blank">January Newsletter</a></li>
+                <li><a href="newsletter_february.pdf" target="_blank">February Newsletter</a></li>
+                <li><a href="newsletter_march.pdf" target="_blank">March Newsletter</a></li>
+                <!-- Add more archived newsletters as needed -->
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
